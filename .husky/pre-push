@@ -1,2 +1,2 @@
-npm run test --if availible
+npm run test
 npm run build
