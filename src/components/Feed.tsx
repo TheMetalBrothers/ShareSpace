@@ -1,7 +1,5 @@
 //import { useState } from "react";
 import "../App.css"
-import catPic from "../assets/catto.jpg"
-import harleyDarling from '../assets/harleydarling.jpeg'
 import heart from "../assets/hearticon.jpeg"
 import comment from "../assets/chat.png"
 import samplePosts from '../data/samplePosts.json'
