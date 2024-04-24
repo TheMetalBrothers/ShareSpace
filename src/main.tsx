@@ -6,7 +6,7 @@ import './styles/main.scss'
 import { ClerkProvider } from '@clerk/clerk-react'
  
 // Import your publishable key
-const PUBLISHABLE_KEY = 'pk_test_ZmxlZXQtcHVtYS03Ny5jbGVyay5hY2NvdW50cy5kZXYk'
+const PUBLISHABLE_KEY = "pk_test_ZmxlZXQtcHVtYS03Ny5jbGVyay5hY2NvdW50cy5kZXYk";
  
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
@@ -15,7 +15,6 @@ if (!PUBLISHABLE_KEY) {
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
-      <h1>Hello World</h1>
       <App />
     </ClerkProvider>
   </React.StrictMode>,

@@ -46,7 +46,6 @@ nav.Navbar {
   border-bottom: #888;
   border: 1px solid black;
   display: inline-block;
-  padding: 1em
 }
 
 button {
@@ -58,6 +57,7 @@ button {
 h2 {
   display: inline-block;
   color: red;
+  margin-left: 5px;
 }
 
 img.feedImage {
@@ -76,17 +76,36 @@ div.sidebarItems {
   font-size: larger;
 }
 
-img.feedButton {
-  flex-direction: center;
-  align-items: center;
-  justify-content: center;
-  display: block;
-  margin-left: 800px;
+img.feedLike {
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+
+
+img.feedComment {
+  position: absolute;
+  top: 550px;
+  left: 800px;
+}
+
+img.nextArrow {
+  position: absolute;
+  top: 400px;
+  left: 850px;
+}
+
+img.lastArrow {
+  position: absolute;
+  top: 400px;
+  left: 390px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 input#navSearch {
-  margin-left: 400px;
-  margin-right: 435px;
+  margin-left: 440px;
+  margin-right: 525px;
 }
 
 img.homeIcon {
@@ -95,13 +114,15 @@ img.homeIcon {
 }
 
 img.profileIcon {
-  padding-right: 10px;
-  align-items: center;
+  position: absolute;
+  left: 15px;
+  top: 90px;
 }
 
 a.userDesc {
-  margin-left: 600px;
-  text-wrap: auto;
+  margin-left: 525px;
+  width: 200px;
+  overflow: hidden;
   font-size: x-small;
   color: #f0f0f0;
 }
@@ -109,19 +130,15 @@ a.userDesc {
 a.userName {
     display: flex;
     margin-left: 600px;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 
 div.signInNotif {
-  margin-top: 30px;
+  margin-top: 280px;
   top: 800px;
   overflow-y: hidden;
 }
 
-button.logInButton {
-  margin-top: 150px;
-  margin-left: 10px;
-}
 
 a.loginText {
   color: white;
@@ -158,4 +175,25 @@ text.Bio {
   margin-left: 650px;
   position: absolute;
   top: 230px;
+}
+
+button.toggleButton {
+  position: relative;
+  position: fixed;
+  top: 240px;
+  left: 15px;
+  background-color: aqua;
+  color: black
+}
+
+a.clerkButton {
+  position: absolute;
+  position: fixed;
+  top: 22px;
+  left: 1080px;
+}
+
+
+button.upload {
+  margin-right: 50px;
 }

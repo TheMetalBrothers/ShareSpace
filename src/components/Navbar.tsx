@@ -4,15 +4,14 @@ import "../App.css"
 const NavBar = () => {
     return (
         <nav className="Navbar">
-            <div className = "brandName">
+            <div className = "Navbar">
                 <h2>ShareSpace</h2>
                 <input 
                 type="text" id="navSearch" placeholder="Search">
                 </input>
                 <a className = "navButtons">
-                    <button>+ Upload</button>
+                    <button className="upload">+ Upload</button>
                 </a>
-                    <button className="button2">Login</button>
             </div>
         </nav>
     )
