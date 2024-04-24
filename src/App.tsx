@@ -42,7 +42,6 @@ function App() {
       {showFeed && <Feed/>}
       
     </div>
-
     </>
     </header>
   )
