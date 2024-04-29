@@ -4,18 +4,22 @@
         "description": "Yo checkout this cute cat picture. I took it yesterday at the local cat shelter. Was thinking about adopting the little guy!",
         "url": "https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "likes": ["thedoctorwho"],
-        "comments": {
-            "thedoctorwho": "I was down there last week, lots of animals that need homes."
-        }
+        "comments": 
+        [
+            { "username": "cat_luver_123" ,"text": "I was down there last week, lots of animals that need homes."},
+            { "username": "leBrub_leGoat", "text": "Nah Goku would win dude not even close" }
+        ]
     },
     {
         "username": "SahilMetal",
         "description": "One of the album covers of my favorite band check it out #newprofilepic",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Frocksound.tv%2Fnews%2Fthe-pretty-reckless-share-acoustic-version-of-harley-darling&psig=AOvVaw1NcSxIF3oKPukv9UI-3NAM&ust=1714060128951000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCYpNqZ24UDFQAAAAAdAAAAABAI",
-        "likes": ["thedoctorwho"],
-        "comments": {
-            "thedoctorwho": "I saw them live last month!"
-        }
+        "url": "https://rocksound.tv/wp-content/uploads/theprettyreckless_2022_motorcycle.jpg",
+        "likes": ["thedoctorwho", "taylor_momsen_real_not_fake"],
+        "comments": 
+        [
+            { "username": "thedoctorwho" ,"text": "I'm tired of retyping all these random comments."},
+            { "username": "omarcomingUP", "text": "STARK MOUNTAIN YOU CAN SEE ME IN THE BACKGROUND" }
+        ]
     }
 ]
 
